@@ -27,12 +27,7 @@ function heryzurb_form_system_theme_settings_alter(&$form, &$form_state)
         /*
          * General Settings.
          */
-        $form['heryzurb']['general'] = array(
-            '#type' => 'fieldset',
-            '#title' => t('General Settings'),
-        );
-
-        $form['heryzurb']['general']['heryzurb_css'] = array(
+        $form['heryzurb']['heryzurb_css'] = array(
             '#type' => 'textarea',
             '#title' => t('CSS style'),
             '#description' => t('Write your own css style here.'),
