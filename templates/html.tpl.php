@@ -51,7 +51,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <style><?php print theme_get_setting('heryzurb_css'); ?></style>
+  <style><?php print $heryzurb_css; ?></style>
   <?php print $scripts; ?>
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
